@@ -8,7 +8,7 @@ Welcome to the GSAP Basics Tutorial repository! This repository contains a serie
 - [Setup](#setup)
 - [Lessons](#lessons)
   - [Lesson 1: Basic Animation](https://66618a718113c1009206734d--scintillating-caramel-892ffe.netlify.app/)
-  - [Lesson 2: Tweening Properties](https://6662a63131a1e6c792aa487d--ornate-treacle-291a1b.netlify.app/)
+  - [Lesson 2: Scroll Trigger](https://6662a63131a1e6c792aa487d--ornate-treacle-291a1b.netlify.app/)
   - [Lesson 3: Advanced Animations](#lesson-3-advanced-animations)
 - [Running the Examples](#running-the-examples)
 - [Resources](#resources)
