@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson03</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="overlay" class="bg-none w-full h-dvh relative">
+        <header class="w-full sticky top-0 bg-black z-50">
+            <nav class="flex justify-between items-center py-4 px-10">
+                <h1 class="text-2xl font-bold"><span class="text-green-500">GSAP</span>-lesson03</h1>
+                <img id="start" src="https://cdn-icons-png.flaticon.com/128/5259/5259008.png" alt="menu" class="bg-green-500 px-2 py-1 rounded-sm w-10 h-10 cursor-pointer">
+            </nav>
+        </header>
+    
+    
+        <div id="container" class="flex justify-center">
+          <svg width="1000" height="200">
+            <path d="M 50 100 Q 250 100 950 100" stroke="white" fill="transparent" class="z-50"/>
+          </svg>
+        </div>
+    
+        <div id="cursor" class="w-5 h-5 rounded-full bg-green-500 opacity-0"></div>
+    </div>
+
+    <div id="menu" class="w-3/12 h-dvh absolute right-0 top-0 z-50 backdrop-blur-lg bg-white/30">
+      <img id="close" src="https://cdn-icons-png.flaticon.com/128/16206/16206622.png" alt="close-menu" class="cursor-pointer w-8 h-8 absolute right-5 top-5">
+      <div class="w-full h-full flex flex-col gap-5 justify-center items-start px-10 text-2xl font-bold hover:cursor-pointer opacity-1">
+        <p class="hover:text-green-500 text-white opacity-1">Home</p>
+        <p class=" opacity-1 hover:text-green-500 text-white">About us</p>
+        <p class=" opacity-1 hover:text-green-500 text-white">Services</p>
+        <p class=" opacity-1 hover:text-green-500 text-white">Contact us</p>
+      </div>
+    </div>
+
+    
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
